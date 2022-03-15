@@ -9,7 +9,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 from tiktok import getCookie, getDownloadUrl, getDownloadID, getStatus 
 import urllib.request
-TOKEN = 'ТОКЕН БОТА' 
+TOKEN = '5234550223:AAHNePxpF8NmZjcQq5ARFpxpphTH0DkFSio' 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
  
